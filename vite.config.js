@@ -3,8 +3,9 @@ import react from '@vitejs/plugin-react-swc'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/ecommerce/',
+  base: '/',
   server: {
     port: 9090,
   }
 })
+
